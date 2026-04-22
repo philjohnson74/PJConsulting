@@ -10,4 +10,8 @@ public class Service
     public required String Name { get; set; }
 
     public String? Description { get; set; }
+
+    public int ConsultancyId { get; set; }
+
+    public Consultancy? Consultancy { get; set; }
 }
